@@ -1,0 +1,25 @@
+{
+  "name": "questionnaire-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js.js",
+  "scripts": {
+    "test": "./node_modules/.bin/eslint *.js && mocha --timeout 10000 --exit test/**/*.js",
+    "start": "node server.js"
+  },
+  "author": "Pablo Gonzaga",
+  "license": "GNU",
+  "dependencies": {
+    "express": "4.16.3"
+  },
+  "engines": {
+    "node": "8.4.0",
+    "npm": "6.0.1"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "eslint": "5.4.0",
+    "mocha": "5.2.0",
+    "supertest": "3.1.0"
+  }
+}
