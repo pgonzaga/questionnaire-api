@@ -5,6 +5,7 @@
  ```bash
  git clone git@github.com:pgonzaga/questionnaire-api.git
  cd questionnaire-api
+ npm install
  npm start
   ```
   
