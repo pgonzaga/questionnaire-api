@@ -1,7 +1,8 @@
 const express = require('express');
+const cors = require('cors');
 const router = express.Router();
 
-router.get('/', function (req, res) {
+router.get('/', cors(), (req, res) => {
   res.send({ text: req.query.text });
 });
 
